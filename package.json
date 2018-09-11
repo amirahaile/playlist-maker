@@ -9,6 +9,11 @@
   "author": "Amira Hailemariam",
   "license": "ISC",
   "dependencies": {
-    "express": "4.16.3"
+    "axios": "0.18.0",
+    "base-64": "0.1.0",
+    "dotenv": "6.0.0",
+    "express": "4.16.3",
+    "lodash": "4.17.10",
+    "uuid": "3.3.2"
   }
 }
