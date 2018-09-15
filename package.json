@@ -4,16 +4,17 @@
   "description": "A playlist assembler powered by the Spotify API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/app.js"
   },
   "author": "Amira Hailemariam",
   "license": "ISC",
   "dependencies": {
     "axios": "0.18.0",
-    "base-64": "0.1.0",
+    "cookie-parser": "1.4.3",
     "dotenv": "6.0.0",
     "express": "4.16.3",
     "lodash": "4.17.10",
-    "uuid": "3.3.2"
+    "winston": "3.1.0"
   }
 }
